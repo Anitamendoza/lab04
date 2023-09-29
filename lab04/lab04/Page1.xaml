@@ -8,7 +8,7 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Next Page" Clicked="OnNextPageButtonCliked"/>
-            <Button Text="Close" x:Name="bntClose"/>
+            <Button Text="Close" x:Name="btnClose"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

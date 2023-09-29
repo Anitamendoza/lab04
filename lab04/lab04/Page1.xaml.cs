@@ -15,6 +15,9 @@ namespace lab04
         public Page1()
         {
             InitializeComponent();
-        }
+            btnClose.Clicked += async (sender, e) =>
+            { await Navigation.PopAsync();
+            };
+            }
     }
 }

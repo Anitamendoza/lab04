@@ -16,5 +16,14 @@ namespace lab04
         {
             InitializeComponent();
         }
+
+        async void OnPreviousPageButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+       // private void Button_Clicked(object sender, EventArgs e)
+       // {
+
+       // }
     }
 }
