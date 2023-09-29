@@ -4,9 +4,11 @@
              x:Class="lab04.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="First form!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Next Page" Clicked="OnNextPageButtonCliked"/>
+            <Button Text="Close" x:Name="bntClose"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -13,9 +13,10 @@ namespace lab04
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            //DependencyService.Register<MockDataStore>();
+            //MainPage = new AppShell();
             //Main Page = navegation( new Page2());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
