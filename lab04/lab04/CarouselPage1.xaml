@@ -16,6 +16,11 @@
         
     </ContentPage>
     <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0"/>
+            </OnPlatform>
+        </ContentPage.Padding>
         <StackLayout>
             <Label Text="Gree" FontSize="Medium" HorizontalOptions="Center"/>
             <BoxView Color="Green" WidthRequest="200" HeightRequest="200"
@@ -23,14 +28,19 @@
         </StackLayout>
     </ContentPage>
     <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0"/>
+            </OnPlatform>
+        </ContentPage.Padding>
         <StackLayout>
             <Label Text="Blue" FontSize="Medium" HorizontalOptions="Center"/>
             <BoxView Color="Blue" WidthRequest="200" HeightRequest="200"
                      HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage>
-    <ContentPage>
-        <Button Text="Close" x:Name="btnClose"/>
+    <ContentPage Padding="5">
+        <Button Text="Close" x:Name="btnClose" Background="Purple"/>
     </ContentPage>
     
 </CarouselPage>
