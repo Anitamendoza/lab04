@@ -17,14 +17,14 @@
     </ContentPage>
     <ContentPage>
         <StackLayout>
-            <Label Text="gree" FontSize="Medium" HorizontalOptions="Center"/>
+            <Label Text="Gree" FontSize="Medium" HorizontalOptions="Center"/>
             <BoxView Color="Green" WidthRequest="200" HeightRequest="200"
                      HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage>
     <ContentPage>
         <StackLayout>
-            <Label Text="blue" FontSize="Medium" HorizontalOptions="Center"/>
+            <Label Text="Blue" FontSize="Medium" HorizontalOptions="Center"/>
             <BoxView Color="Blue" WidthRequest="200" HeightRequest="200"
                      HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         </StackLayout>

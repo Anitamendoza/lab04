@@ -34,7 +34,7 @@ namespace lab04
                 await Navigation.PushModalAsync(new ModalPage1());
             };
 
-            Item1.Clicked += async (sender, e) =>
+            Item6.Clicked += async (sender, e) =>
             {
                 var answer = await DisplayAlert("Question?",
                     "Would you like to play a game", "Yes", "No");
