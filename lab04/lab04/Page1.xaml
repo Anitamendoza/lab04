@@ -7,7 +7,7 @@
             <Label Text="First form!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Next Page" Clicked="OnNextPageButtonCliked"/>
+            <Button Text="Next Page" Clicked="OnNextPageButtonClicked"/>
             <Button Text="Close" x:Name="btnClose"/>
         </StackLayout>
     </ContentPage.Content>

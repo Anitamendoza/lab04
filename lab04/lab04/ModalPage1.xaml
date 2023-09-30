@@ -7,7 +7,7 @@
             <Label Text="Primer Formulario"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Botoon Text="Close Popup" x:Name="btnClosePopup"/>
+            <Button Text="Close Popup" x:Name="btnClosePopup"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

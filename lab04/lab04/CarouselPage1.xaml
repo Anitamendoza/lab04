@@ -30,7 +30,7 @@
         </StackLayout>
     </ContentPage>
     <ContentPage>
-        <Button Text="Close" x:Name="btnClose"
+        <Button Text="Close" x:Name="btnClose"/>
     </ContentPage>
     
 </CarouselPage>
